@@ -1,0 +1,12 @@
+--DROP TABLE payment;
+CREATE TABLE payment (
+    imp_uid VARCHAR2(100),
+    merchant_uid VARCHAR2(50),
+    pay_method VARCHAR2(50),
+    name VARCHAR2(1000),
+    paid_amount NUMBER,
+    buyer_name VARCHAR2(100),
+    buyer_email VARCHAR2(500)
+);
+
+SELECT * FROM payment;
